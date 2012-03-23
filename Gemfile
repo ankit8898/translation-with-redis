@@ -8,7 +8,6 @@ gem 'rails', '3.2.1'
 gem 'mysql'
 gem 'redis'
 gem 'yajl-ruby'
-gem 'rescue' ,:git => 'https://github.com/defunkt/resque.git'
 
 # Gems used only for assets and not required
 # in production environments by default.
