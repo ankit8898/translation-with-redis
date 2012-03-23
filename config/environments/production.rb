@@ -65,3 +65,4 @@ Translation::Application.configure do
   # with SQLite, MySQL, and PostgreSQL)
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
 end
+ENV["REDISTOGO_URL"]  = 'redis://redistogo:3a2e01e411bab7b807099c79d6a84b09@gar.redistogo.com:9017'
