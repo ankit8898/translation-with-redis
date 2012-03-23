@@ -1,11 +1,20 @@
 <h1>Translations</h1>
 
-<ul>
 
+<table border="1">
+<tr>
+<th>Locale.key</th>
+<th>Value</th>
+</tr>
 <% @translations.keys.each do |key| %>
-<li> <%= key %> : <%= @translations[key] %></li>
-</ul>
+<tr >
+  <td ><%= key %> </td>
+  <td ><%= @translations[key] %></td>
+</tr>
 <%end%>
+</table>
+
+
 
 <h2>Add Translation</h2>
 
