@@ -3,7 +3,7 @@ class HomesController < ApplicationController
   # GET /homes.json
   def index
     @homes = Home.all
-
+    @t = Home.agent
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @homes }
